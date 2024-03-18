@@ -1,0 +1,117 @@
+.our-mentors {
+    /* padding-bottom: 80px; */
+}
+
+.container.mentors-container {}
+
+
+.mentors-img {
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.mentors-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.07em;
+    margin-bottom: 40px;
+    margin-left: auto;
+}
+
+.mentors-list-container {
+    padding: 0 75px;
+    margin: 0 auto;
+}
+
+.mentors-title-part {
+    color: #BEA69E;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.07em;
+}
+
+.mentors-list {}
+
+.mentors-item {}
+
+
+
+.mentors-item-wrap {
+    padding-top: 16px;
+    text-align: center;
+}
+
+.mentors-item-title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.mentors-item-text {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+}
+
+/*----------------MEDIA---------------*/
+
+@media screen and (max-width:767px) {
+    .mentors-item:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+}
+
+/* @media screen and (min-width:768px) and (max-width:1279px) {
+    .mentors-list {
+        gap: 100px 93px;
+    }
+} */
+
+
+/*----------------TABLET--------------------*/
+
+@media screen and (min-width:768px) {
+    .mentors-container {
+        max-height: 697px;
+    }
+
+    .mentors-title {
+        font-size: 48px;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+        margin-bottom: 50px;
+    }
+
+    .mentors-title-part {
+        font-size: 48px;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+        margin-bottom: 50px;
+    }
+
+
+    .mentors-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 100px;
+        row-gap: 93px;
+        justify-content: center;
+    }
+
+}
+
+/*---------------------DESKTOP--------------------*/
+@media screen and (min-width:1280px) {
+    .mentors-list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 100px;
+    }
+}
