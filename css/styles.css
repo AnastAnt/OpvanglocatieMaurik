@@ -166,28 +166,13 @@ img {
   padding: 72px 0;
   margin: 0 auto;
   text-align: center;
-  background-color: var(--GREY, rgba(46, 47, 66, 0.7));
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 
   /* mobile scrin */
   max-width: 320px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/FZRA_N_WQAAKGDD.jpg);
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 767px) {
-  .section-one {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/dark-bg_mob@2x.jpg);
-  }
-}
+ 
+
 
 .section-big-title {
   max-width: 217px;
