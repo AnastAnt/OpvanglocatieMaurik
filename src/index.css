@@ -2,8 +2,8 @@
 
 .body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #fff;
+  color: black;
+  background-color: gray;
 }
 
 h1,
@@ -35,7 +35,7 @@ img {
 }
 
 .container {
-  max-width: 320px;
+  min-width: 320px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
@@ -43,3 +43,57 @@ img {
 }
 
 /*header*/
+.header-navigation {
+  display: flex;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+  color: white;
+  background-color: black;
+}
+.menu {
+  display: flex;
+  gap: 25px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: blue;
+  padding: 17.5px 20px;
+}
+.logo2 {
+  color: yellow;
+}
+.nav-link {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fdfdfd;
+  position: relative;
+  padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-contact-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: white;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-list {
+  font-style: normal;
+}
